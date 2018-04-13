@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.akusei.pruebaintents.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/address"
+            android:title="Contactos"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/gnome_emblem_photos"
+            android:title="Imágenes"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/videos"
+            android:title="Videos"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/gnome_audio_input_microphone"
+            android:title="Audio"/>
+    </group>
+
+</menu>
